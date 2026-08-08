@@ -1,0 +1,18 @@
+# Dataset - don't upload thousands of images
+dataset/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# Trained model files
+*.h5
+*.keras
+
+# Generated output files except CSV files
+outputs/*
+!outputs/*.csv
